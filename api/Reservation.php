@@ -152,10 +152,4 @@ class Reservation{
 
 }
 
-$r = new Reservation();
-echo $r->select_next_available_room_id('R0%');
-//print_r($r->update_reservation('r001','2023-12-3','2024-10-4','mika','444'));
-print_r($r->create_reservation('2024-06-01','2025-07-02','Mika','444','0'));
-//print_r($r->search_reservation("m"));
-
 ?>
